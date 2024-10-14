@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikani tomo 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">Mikani: Semana 1 capitulo 6 la esquizo hace la unión</h1>
+
+        <div class="content">
+            <div class="heart-container">
+                <div class="heart"></div>
+            </div>
+
+            <div class="buttons">
+                <button class="love-btn" onclick="revealLove()">¡Mira Mira!</button>
+                <div class="allmight-section">
+                    <button class="allmight-btn" onclick="showLoveMessage()">
+                        <img src="allmight.png" alt="All Might" class="allmight-img">
+                    </button>
+                    <p class="allmight-text">¡DA CLICK AQUII!</p>
+                </div>
+            </div>
+        </div>
+
+        <p id="loveMessage" class="hidden">¡Te AMOOOO mucho muchito tú me envuelves con todo tu personalidad tan única y diferente! 💖</p>
+
+        <div id="subtitles" class="hidden">
+            <p id="spanish"></p>
+            <p id="english"></p>
+        </div>
+    </div>
+
+    <audio id="loveSong" src="feelit.mp3"></audio>
+    <div id="heartsArea"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
